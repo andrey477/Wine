@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.line {
+    width: 160px;
+    height: 1px;
+    background-color: #fff;
+    margin: 40px auto;
+}

@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="menu__burger">
+                <span></span>
+            </div>
+            <div class="header-row header-row_contacts">
+                <span class="header__location">Новокузнечный переулок 4/1</span>
+                <span class="header__phone">8 (812) 123-45-67</span>
+            </div>
+            <div class="header-row header-row_nav">
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__list"><a href="#" class="header-nav__link">Каталог</a></li>
+                        <li class="header-nav__list"><a href="#" class="header-nav__link">Доставка</a></li>
+                        <li class="header-nav__list"><a href="#" class="header-nav__link">Коллекции</a></li>
+                        <li class="header-nav__list"><a href="#" class="header-nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="header__title">Wine Factory</h1>
+            <div class="header-content">
+                <a href="" class="header-content__link">винная карта</a>
+                <a href="" class="header-content__link">дегустация</a>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="description">
+            <div class="container container_border">
+                <h2 class="description__title">Лучший вкус, это вкус долголетнего вина</h2>
+                <div class="line"></div>
+                <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim
+                    tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis
+                    adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices
+                    nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus
+                    ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien,
+                    pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui
+                    vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc,
+                    orci aliquam quis.
+                </p>
+                <img src="./img/wineglass.svg" alt="" class="description__img">
+            </div>
+        </section>
+
+        <section class="collection">
+            <div class="container collection-border">
+                <div class="collection-content">
+                    <span class="collection-content__desc">Новинки коллекций</span>
+                    <h2 class="collection-content__title">Март 1980 <br> Урожай Марселя</h2>
+                    <div class="line line_collection"></div>
+                    <p class="collection-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed
+                        fermentum. Felis adipiscing morbi sodales ac.
+                    </p>
+                    <table class="collection-content__table">
+                        <tr>
+                            <td>1980</td>
+                            <td>
+                                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                                <p>Красочная бутылка вина из Марселя</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>1980</td>
+                            <td>
+                                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                                <p>Красочная бутылка вина из Марселя</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>1980</td>
+                            <td>
+                                <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+                                <p>Красочная бутылка вина из Марселя</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="collection-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed
+                        fermentum. Felis adipiscing morbi sodales ac.
+                    </p>
+                    <a href="" class="collection-content__button">узнать подробнее</a>
+                </div>
+                <div class="collection-photo">
+                    <img src="./img/picture-1.png" alt="" class="collection-photo__img collection-photo__img_big">
+                    <div class="collection-photo__group">
+                        <img src="./img/picture-2.png" alt="" class="collection-photo__img">
+                        <img src="./img/picture-3.png" alt="" class="collection-photo__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
     <script src="js/script.min.js"></script>
 </body>
+
 </html>

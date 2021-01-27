@@ -15,3 +15,20 @@ testWebP(function (support) {
         document.querySelector('body').classList.add('no-webp');
     }
 });
+
+document.querySelector('.menu__burger').addEventListener('click', () => {
+    const button = document.querySelector('.menu__burger');
+    const menu = document.querySelectorAll('.header-row');
+    if (!button.classList.contains('menu__burger_active')) {
+        button.classList.add('menu__burger_active');
+        menu.forEach(item => {
+            item.style.display = 'block';
+        });
+    }
+    else {
+        button.classList.remove('menu__burger_active');
+        menu.forEach(item => {
+            item.style.display = 'none';
+        });
+    }
+})

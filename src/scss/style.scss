@@ -9,23 +9,8 @@
 }
 
 @import "fonts";
-
-body {
-    font-size: 36px;
-    display: flex;
-    background: url("../img/events-bg.png");
-}
-
-span {
-    font-size: 20px;
-    @media (max-width: 767px) {
-        font-size: 15px;
-    }
-}
-
-div {
-    font-size: 30px;
-    @media (max-width: 767px) {
-        font-size: 20px;
-    }
-}
+@import "global";
+@import "header";
+@import "description";
+@import "collection";
+@import "media";
