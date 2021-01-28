@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
         rel="stylesheet">
+    <script src="https://use.fontawesome.com/6f8ca38869.js"></script>
 </head>
 
 <body>
@@ -25,10 +26,10 @@
             <div class="header-row header-row_nav">
                 <nav class="header-nav">
                     <ul class="header-nav__list">
-                        <li class="header-nav__list"><a href="#" class="header-nav__link">Каталог</a></li>
-                        <li class="header-nav__list"><a href="#" class="header-nav__link">Доставка</a></li>
-                        <li class="header-nav__list"><a href="#" class="header-nav__link">Коллекции</a></li>
-                        <li class="header-nav__list"><a href="#" class="header-nav__link">Контакты</a></li>
+                        <li class="header-nav__item"><a href="#" class="header-nav__link">Каталог</a></li>
+                        <li class="header-nav__item"><a href="#" class="header-nav__link">Доставка</a></li>
+                        <li class="header-nav__item"><a href="#" class="header-nav__link">Коллекции</a></li>
+                        <li class="header-nav__item"><a href="#" class="header-nav__link">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -109,8 +110,53 @@
             </div>
         </section>
 
+        <section class="recording">
+            <div class="container recording-border">
+                <h1 class="recording__title">Запись на дегустацию</h1>
+                <div class="line recording-line"></div>
+                <p class="recording__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor
+                    in
+                    hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.
+                </p>
+                <form action="" class="form">
+                    <div class="form-row">
+                        <input type="text" class="form__input form__input_width" placeholder="Имя">
+                        <input type="tel" class="form__input form__input_width" placeholder="Телефон">
+                    </div>
+                    <div class="form-row">
+                        <input type="text" class="form__input" placeholder="Бутик на Невском 103">
+                    </div>
+                    <button class="form__button">записаться</button>
+                </form>
+            </div>
+        </section>
 
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Каталог</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Поставщики</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Коллекции</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Дегустация</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Коллекция 2020</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+                </ul>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-item">винный бутик LE CORTE</div>
+                    <div class="footer__contacts-item">8 (812) 123-45-67</div>
+                    <div class="footer__contacts-item footer__contacts-item_social">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="footer__contacts-item">© le-corte.ru</div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/script.min.js"></script>
 </body>
 

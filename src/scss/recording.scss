@@ -1,0 +1,114 @@
+.recording {
+    background-color: #282828;
+    padding: 130px 0 100px 0;
+}
+
+.recording-border {
+    position: relative;
+    border: 3px solid #C4C4C4;
+    border-top: none;
+    &::after, 
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 260px;
+        height: 260px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &::before {
+        background: url(../img/form-1.svg);
+        left: -30px;
+        top: -60px;
+    }
+    &::after {
+        height: 200px;
+        background: url(../img/form-2.svg);
+        right: -53px;
+        top: -65px;
+    }
+}
+
+.recording__title {
+    top: -30px;
+    position: relative;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    &::after,
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 70px;
+        height: 3px;
+        background-color: #C4C4C4;
+    }
+    &::before {
+        top: 24px;
+    }
+    &::after {
+        right: 0;
+        bottom: 24px;
+    }
+}
+
+.recording-line {
+    width: 118px;
+}
+
+.recording__text {
+    max-width: 540px;
+    margin: 0 auto 80px auto;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.form__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 13px;
+    line-height: 150%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.form__input_width {
+    max-width: 255px;
+}
+
+.form__button {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    padding: 15px 0;
+    margin-bottom: 80px;
+}

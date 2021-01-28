@@ -39,9 +39,14 @@
 .header-nav__list {
     width: 100%;
     text-align: center;
-    border-left: 1px solid #FFFFFF;
+    // border-left: 1px solid #FFFFFF;
     display: flex;
     justify-content: space-around;
+}
+
+.header-nav__item {
+    list-style: none;
+    border-left: 1px solid #FFFFFF;
 }
 
 .header-nav__link {

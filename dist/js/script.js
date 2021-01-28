@@ -31,4 +31,4 @@ document.querySelector('.menu__burger').addEventListener('click', () => {
             item.style.display = 'none';
         });
     }
-})
+});
